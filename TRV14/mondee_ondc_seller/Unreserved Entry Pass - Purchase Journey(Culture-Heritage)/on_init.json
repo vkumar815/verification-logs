@@ -5,64 +5,66 @@
                 "code": "IND"
             },
             "city": {
-                "code": "std:011"
+                "code": "*"
             }
         },
         "domain": "ONDC:TRV14",
-        "timestamp": "2025-04-11T11:29:40.170Z",
+        "timestamp": "2025-04-28T18:53:16.000Z",
+        "bap_id": "preprodbuyer.ondc.mondee.com",
+        "transaction_id": "e4i120k-2d7f-416f-aa69-cae77284e00e",
+        "message_id": "7b355323-11aa-4be9-9648-9628618b1157",
         "version": "2.0.0",
-        "bap_id": "ondc.stg.highwaydelite.com",
-        "bap_uri": "https://ondc.stg.highwaydelite.com/trv14",
-        "action": "on_confirm",
-        "bpp_id": "stagingseller.ondc.mondee.com",
-        "bpp_uri": "https://stagingseller.ondc.mondee.com",
-        "transaction_id": "054fa603-ddb0-448a-9015-c5c8631ec815",
-        "message_id": "2d5776c6-8ea6-4cb1-a6e9-5fd372d5bd6c",
-        "ttl": "PT30S"
+        "action": "on_init",
+        "bap_uri": "https://preprodbuyer.ondc.mondee.com",
+        "ttl": "PT30S",
+        "bpp_id": "preprodseller.ondc.mondee.com",
+        "bpp_uri": "https://preprodseller.ondc.mondee.com"
     },
     "message": {
         "order": {
-            "id": "01",
-            "status": "ACTIVE",
             "items": [
                 {
-                    "id": "1502e6d7cfc14f15935a57bc5c765cdd",
+                    "id": "3e4da92eb213408289739e8821aa8ffa",
                     "descriptor": {
-                        "name": "Golden Pagodas & Serene Landscapes: A Journey Through Myanmar",
+                        "name": "Discover the enchanting beauty of Panchgani and Mahabaleshwar on a guided day trip from Pune!",
                         "code": "ENTRY_PASS",
-                        "short_desc": "Golden Pagodas & Serene Landscapes: A Journey Through Myanmar",
-                        "long_desc": "Arrival in Yangon & City ExplorationMandalay's Cultural HeritageInle Lake's Tranquility & Floating GardensAncient Wonders of BaganDeparture from Yangon",
+                        "short_desc": "Discover the enchanting beauty of Panchgani and Mahabaleshwar on a guided day trip from Pune!",
+                        "long_desc": "Embark on a breathtaking day trip to Mahabaleshwar and Panchgani from Pune!",
                         "images": [
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted1-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484431.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/a6.jpg",
                                 "size_type": "md"
                             },
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted2-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/aa.jpg",
                                 "size_type": "md"
                             },
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted3-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ab.jpg",
                                 "size_type": "md"
                             },
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted4-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ac.jpg",
                                 "size_type": "md"
                             },
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted5-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ad.jpg",
+                                "size_type": "md"
+                            },
+                            {
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/af.jpg",
                                 "size_type": "md"
                             }
                         ]
                     },
                     "location_ids": [
-                        "LEAU9KZ3KK3"
+                        "LD0TTDVB2FJ"
                     ],
                     "category_ids": [
+                        "C4",
                         "C1",
-                        "C5",
-                        "C3",
-                        "C4"
+                        "C2",
+                        "C3"
                     ],
                     "price": {
                         "currency": "INR",
@@ -73,7 +75,7 @@
                         "duration": "P2D"
                     },
                     "fulfillment_ids": [
-                        "FO3ARNJNFRN"
+                        "F2CCVI11Y2M"
                     ],
                     "cancellation_terms": [
                         {
@@ -89,7 +91,7 @@
             ],
             "fulfillments": [
                 {
-                    "id": "FH5C0FEBGLG",
+                    "id": "F7JJZVTHZ7J",
                     "type": "PLAN",
                     "stops": [
                         {
@@ -101,13 +103,7 @@
                                 }
                             },
                             "time": {
-                                "timestamp": "2025-04-11T09:00:00.000Z"
-                            },
-                            "authorization": {
-                                "type": "QR",
-                                "token": "iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQAAAACFI5MzAAABd0lEQVR4Xu2WS24EIQxEkXwtJF/dEteyROpBMiG/VfCuPaOehrdoUy67p82/on3feMVDHkI85B8kWrM5R5jubC9KyNB3jOjddcuiioSttR7efC/KSFgqgbRRTNI5rhStJEDpKSpl17qEYIrxET+8c48Q2Tom3LtFJPC5R5eaumLIGrIlNf1kt2xH5e6S8MTprn1dLA+t7xJOp/VISjgxSQnBgWkhJcPpYy8i2KO7mmtw1n5qfZdgDPXV6qzdVyVERSMLhkQyMz4zuEzWFGIocbcNUkHSVbGBFdXAuKSISETVK/v7WbemBUSdy8MZeuow0qghGD2ZRT6p4On4q0THo2ireEvZIqIjGs2lFEID/VT0MtEKIQNFNygisvwaE0YyXkSIWC5c5zwyuEt0QF4VfJQIk7aG6JEIOjAhgh6Vu0vQU4LKILKIlRKZZDKbVLYvjr9O9D7fjl/7NURfaK4Gs51MAVkO4RWrf0LOGCwiv8ZDHkI85DZ5A74tlbbvrfy/AAAAAElFTkSuQmCC",
-                                "valid_to": "2025-05-11T11:29:41.661376683Z",
-                                "status": "UNCLAIMED"
+                                "timestamp": "2025-04-28T09:00:00.000Z"
                             }
                         }
                     ],
@@ -115,19 +111,14 @@
                         "organization": {
                             "contact": {
                                 "phone": "",
-                                "email": "jmalhotra@mondee.com"
+                                "email": "samantha.viator@mondee.com"
                             }
                         }
                     },
                     "vehicle": {
                         "category": "SITE"
                     },
-                    "experienceId": "1502e6d7cfc14f15935a57bc5c765cdd",
-                    "state": {
-                        "descriptor": {
-                            "code": "CONFIRMED"
-                        }
-                    }
+                    "experienceId": "3e4da92eb213408289739e8821aa8ffa"
                 }
             ],
             "provider": {
@@ -143,35 +134,39 @@
                 },
                 "locations": [
                     {
-                        "id": "LRXS30SL58S",
-                        "gps": "95.955974, 21.916221",
+                        "id": "LZ6PTJ4BAP1",
+                        "gps": "73.85309, 18.5042",
                         "descriptor": {
-                            "name": "Golden Pagodas & Serene Landscapes: A Journey Through Myanmar",
-                            "short_desc": "Arrival in Yangon & City ExplorationMandalay's Cultural HeritageInle Lake's Tranquility & Floating GardensAncient Wonders of BaganDeparture from Yangon",
+                            "name": "Discover the enchanting beauty of Panchgani and Mahabaleshwar on a guided day trip from Pune!",
+                            "short_desc": "Embark on a breathtaking day trip to Mahabaleshwar and Panchgani from Pune!",
                             "images": [
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted1-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484431.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/a6.jpg",
                                     "size_type": "md"
                                 },
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted2-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/aa.jpg",
                                     "size_type": "md"
                                 },
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted3-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ab.jpg",
                                     "size_type": "md"
                                 },
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted4-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ac.jpg",
                                     "size_type": "md"
                                 },
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted5-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ad.jpg",
+                                    "size_type": "md"
+                                },
+                                {
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/af.jpg",
                                     "size_type": "md"
                                 }
                             ]
                         },
-                        "experienceId": "1502e6d7cfc14f15935a57bc5c765cdd"
+                        "experienceId": "3e4da92eb213408289739e8821aa8ffa"
                     }
                 ]
             },
@@ -220,20 +215,15 @@
                     }
                 }
             ],
-            "billing": {
-                "name": "anish",
-                "email": "support@highwaydelite.com",
-                "phone": "9392250800"
-            },
             "quote": {
                 "breakup": [
                     {
                         "title": "BASE_FARE",
                         "item": {
-                            "id": "1502e6d7cfc14f15935a57bc5c765cdd",
+                            "id": "3e4da92eb213408289739e8821aa8ffa",
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "16351.90"
                             },
                             "quantity": {
                                 "selected": {
@@ -243,26 +233,25 @@
                         },
                         "price": {
                             "currency": "INR",
-                            "value": "250"
+                            "value": "16351.90"
                         }
                     }
                 ],
                 "price": {
                     "currency": "INR",
-                    "value": "250"
+                    "value": "16351.90"
                 }
+            },
+            "billing": {
+                "name": "John Doe",
+                "email": "john.doe@example.com",
+                "phone": "+91-9897867564"
             },
             "payments": [
                 {
-                    "id": "c0a7933a-8224-4d9e-94ee-f165428402fd",
                     "collected_by": "BAP",
-                    "status": "PAID",
-                    "type": "PRE-ORDER",
-                    "params": {
-                        "transaction_id": "HDENTRYPASS0000000206",
-                        "currency": "INR",
-                        "amount": "250"
-                    }
+                    "status": "NOT-PAID",
+                    "type": "PRE-ORDER"
                 }
             ],
             "tags": [
@@ -287,21 +276,21 @@
                         },
                         {
                             "descriptor": {
-                                "code": "SETTLEMENT_WINDOW"
+                                "code": "STATIC_TERMS"
                             },
-                            "value": "P30D"
+                            "value": "https://api.example-bap.com/booking/terms"
                         },
                         {
                             "descriptor": {
                                 "code": "SETTLEMENT_BASIS"
                             },
-                            "value": "INVOICE_RECEIPT"
+                            "value": "https://api.example-bap.com/booking/terms"
                         },
                         {
                             "descriptor": {
-                                "code": "STATIC_TERMS"
+                                "code": "SETTLEMENT_WINDOW"
                             },
-                            "value": "https://api.example-bap.com/booking/terms"
+                            "value": "P30D"
                         }
                     ]
                 },
@@ -374,9 +363,7 @@
                         }
                     ]
                 }
-            ],
-            "created_at": "2025-04-11T11:29:41.661Z",
-            "updated_at": "2025-04-11T11:29:41.661Z"
+            ]
         }
     }
 }

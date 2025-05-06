@@ -5,59 +5,76 @@
                 "code": "IND"
             },
             "city": {
-                "code": "std:011"
+                "code": "*"
             }
         },
         "domain": "ONDC:TRV14",
-        "timestamp": "2025-04-11T11:29:05.628Z",
-        "transaction_id": "054fa603-ddb0-448a-9015-c5c8631ec815",
-        "message_id": "4a95689d-8fa0-4627-b8d8-fb596a75a1b5",
+        "timestamp": "2025-04-28T18:53:16.000Z",
+        "bap_id": "preprodbuyer.ondc.mondee.com",
+        "transaction_id": "e4i120k-2d7f-416f-aa69-cae77284e00e",
+        "message_id": "7b355323-11aa-4be9-9648-9628618b1157",
         "version": "2.0.0",
         "action": "init",
-        "bap_id": "ondc.stg.highwaydelite.com",
-        "bap_uri": "https://ondc.stg.highwaydelite.com/trv14",
-        "bpp_id": "stagingseller.ondc.mondee.com",
-        "bpp_uri": "https://stagingseller.ondc.mondee.com",
-        "ttl": "PT30S"
+        "bap_uri": "https://preprodbuyer.ondc.mondee.com",
+        "ttl": "PT30S",
+        "bpp_id": "preprodseller.ondc.mondee.com",
+        "bpp_uri": "https://preprodseller.ondc.mondee.com"
     },
     "message": {
         "order": {
             "items": [
                 {
-                    "id": "1502e6d7cfc14f15935a57bc5c765cdd",
+                    "id": "3e4da92eb213408289739e8821aa8ffa",
+                    "parent_item_id": "",
                     "quantity": {
                         "selected": {
                             "count": 1
                         }
-                    },
-                    "parent_item_id": "1502e6d7cfc14f15935a57bc5c765cdd",
-                    "add_ons": []
+                    }
                 }
             ],
-            "billing": {
-                "name": "anish",
-                "email": "support@highwaydelite.com",
-                "phone": "+91-6364666666"
-            },
             "fulfillments": [
                 {
-                    "id": "FOX4Y8R4V24",
+                    "id": "F7JJZVTHZ7J",
+                    "type": "PLAN",
                     "stops": [
                         {
                             "type": "START",
+                            "instructions": {
+                                "additional_desc": {
+                                    "url": "https://ondc-official.github.io/mobility-specification/",
+                                    "content_type": "text/plain"
+                                }
+                            },
                             "time": {
-                                "timestamp": "2025-04-11T11:28:19.430Z"
+                                "timestamp": "2025-04-30T09:00:00.000Z"
                             }
                         }
-                    ]
+                    ],
+                    "agent": {
+                        "organization": {
+                            "contact": {
+                                "phone": "",
+                                "email": "samantha.viator@mondee.com"
+                            }
+                        }
+                    },
+                    "vehicle": {
+                        "category": "SITE"
+                    },
+                    "experienceId": "3e4da92eb213408289739e8821aa8ffa"
                 }
             ],
+            "billing": {
+                "name": "John Doe",
+                "email": "john.doe@example.com",
+                "phone": "+91-9897867564"
+            },
             "provider": {
-                "id": "e9bcad46-88ca-4952-9e97-5bc9c9493093"
+                "id": "67eee457f9bb184f4dd941d0"
             },
             "payments": [
                 {
-                    "id": "c0a7933a-8224-4d9e-94ee-f165428402fd",
                     "collected_by": "BAP",
                     "status": "NOT-PAID",
                     "type": "PRE-ORDER"
@@ -85,21 +102,21 @@
                         },
                         {
                             "descriptor": {
-                                "code": "SETTLEMENT_WINDOW"
+                                "code": "STATIC_TERMS"
                             },
-                            "value": "P30D"
+                            "value": "https://api.example-bap.com/booking/terms"
                         },
                         {
                             "descriptor": {
                                 "code": "SETTLEMENT_BASIS"
                             },
-                            "value": "INVOICE_RECEIPT"
+                            "value": "https://api.example-bap.com/booking/terms"
                         },
                         {
                             "descriptor": {
-                                "code": "STATIC_TERMS"
+                                "code": "SETTLEMENT_WINDOW"
                             },
-                            "value": "https://api.example-bap.com/booking/terms"
+                            "value": "P30D"
                         }
                     ]
                 }

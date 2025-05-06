@@ -1,0 +1,270 @@
+{
+  "context": {
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "std:011"
+      }
+    },
+    "domain": "ONDC:TRV14",
+    "timestamp": "2025-04-28T18:35:36.894Z",
+    "bap_id": "preprodbuyer.ondc.mondee.com",
+    "transaction_id": "e4i120k-2d7f-416f-aa69-cae77284e00e",
+    "message_id": "7b355323-11aa-4be9-9648-9628618b1157",
+    "version": "2.0.0",
+    "action": "on_select",
+    "bap_uri": "https://preprodbuyer.ondc.mondee.com",
+    "ttl": "PT30S",
+    "bpp_id": "preprodseller.ondc.mondee.com",
+    "bpp_uri": "https://preprodseller.ondc.mondee.com"
+  },
+  "message": {
+    "order": {
+      "items": [
+        {
+          "id": "3e4da92eb213408289739e8821aa8ffa",
+          "descriptor": {
+            "name": "Discover the enchanting beauty of Panchgani and Mahabaleshwar on a guided day trip from Pune!",
+            "code": "ENTRY_PASS",
+            "short_desc": "Discover the enchanting beauty of Panchgani and Mahabaleshwar on a guided day trip from Pune!",
+            "long_desc": "Embark on a breathtaking day trip to Mahabaleshwar and Panchgani from Pune!",
+            "images": [
+              {
+                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/a6.jpg",
+                "size_type": "md"
+              },
+              {
+                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/aa.jpg",
+                "size_type": "md"
+              },
+              {
+                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ab.jpg",
+                "size_type": "md"
+              },
+              {
+                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ac.jpg",
+                "size_type": "md"
+              },
+              {
+                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ad.jpg",
+                "size_type": "md"
+              },
+              {
+                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/af.jpg",
+                "size_type": "md"
+              }
+            ]
+          },
+          "location_ids": [
+            "LD0TTDVB2FJ"
+          ],
+          "category_ids": [
+            "C4",
+            "C1",
+            "C2",
+            "C3"
+          ],
+          "price": {
+            "currency": "INR",
+            "value": "250"
+          },
+          "time": {
+            "label": "VALIDITY",
+            "duration": "P2D"
+          },
+          "fulfillment_ids": [
+            "F2CCVI11Y2M"
+          ],
+          "cancellation_terms": [
+            {
+              "cancellation_eligible": true
+            }
+          ],
+          "quantity": {
+            "selected": {
+              "count": 1
+            }
+          },
+          "xinput": {
+            "head": {
+              "descriptor": {
+                "name": "Additional Details"
+              },
+              "index": {
+                "min": 0,
+                "cur": 0,
+                "max": 0
+              },
+              "headings": [
+                "ADDITIONAL_DETAILS"
+              ]
+            },
+            "form": {
+              "id": "FBMKBXA7W73",
+              "mime_type": "text/html",
+              "url": "https://tomato-prod-files.s3.amazonaws.com/forms/e4i120k-2d7f-416f-aa69-cae77284e00e/3e4da92eb213408289739e8821aa8ffa/FBMKBXA7W73.html?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250428T130548Z&X-Amz-SignedHeaders=host&X-Amz-Expires=899&X-Amz-Credential=AKIAZ2XWVRNUAXFFGKHZ%2F20250428%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e9200c7671167eb130096488ceaa4240ba29467a75503c29efb20179749e0b5c",
+              "resubmit": false,
+              "multiple_sumbissions": false
+            },
+            "required": true
+          }
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "F7JJZVTHZ7J",
+          "type": "PLAN",
+          "stops": [
+            {
+              "type": "START",
+              "instructions": {
+                "additional_desc": {
+                  "url": "https://ondc-official.github.io/mobility-specification/",
+                  "content_type": "text/plain"
+                }
+              },
+              "time": {
+                "timestamp": "2025-04-28T09:00:00.000Z"
+              }
+            }
+          ],
+          "agent": {
+            "organization": {
+              "contact": {
+                "phone": "",
+                "email": "samantha.viator@mondee.com"
+              }
+            }
+          },
+          "vehicle": {
+            "category": "SITE"
+          },
+          "experienceId": "3e4da92eb213408289739e8821aa8ffa"
+        }
+      ],
+      "provider": {
+        "id": "e9bcad46-88ca-4952-9e97-5bc9c9493093",
+        "descriptor": {
+          "name": "Unreserved Entry Pass",
+          "images": [
+            {
+              "url": "https://bombaytrooper.com/wp-content/uploads/2024/04/0_yGBBhx693nFddxTs.png",
+              "size_type": "xs"
+            }
+          ]
+        },
+        "locations": [
+          {
+            "id": "LZ6PTJ4BAP1",
+            "gps": "73.85309, 18.5042",
+            "descriptor": {
+              "name": "Discover the enchanting beauty of Panchgani and Mahabaleshwar on a guided day trip from Pune!",
+              "short_desc": "Embark on a breathtaking day trip to Mahabaleshwar and Panchgani from Pune!",
+              "images": [
+                {
+                  "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/a6.jpg",
+                  "size_type": "md"
+                },
+                {
+                  "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/aa.jpg",
+                  "size_type": "md"
+                },
+                {
+                  "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ab.jpg",
+                  "size_type": "md"
+                },
+                {
+                  "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ac.jpg",
+                  "size_type": "md"
+                },
+                {
+                  "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ad.jpg",
+                  "size_type": "md"
+                },
+                {
+                  "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/af.jpg",
+                  "size_type": "md"
+                }
+              ]
+            },
+            "experienceId": "3e4da92eb213408289739e8821aa8ffa"
+          }
+        ]
+      },
+      "cancellation_terms": [
+        {
+          "cancellation_fee": {
+            "percentage": "10"
+          },
+          "fulfillment_state": {
+            "descriptor": {
+              "code": "CONFIRMED"
+            }
+          },
+          "cancel_by": {
+            "label": "DURATION",
+            "duration": "PT1H30M"
+          }
+        },
+        {
+          "cancellation_fee": {
+            "percentage": "15"
+          },
+          "fulfillment_state": {
+            "descriptor": {
+              "code": "COMPLETED"
+            }
+          },
+          "cancel_by": {
+            "label": "DURATION",
+            "duration": "PT1H"
+          }
+        },
+        {
+          "external_ref": {
+            "mimetype": "text/html",
+            "url": "https://api.unreserved-entry-pass.com/beckn/tnc.html"
+          },
+          "cancellation_eligible": true
+        }
+      ],
+      "replacement_terms": [
+        {
+          "external_ref": {
+            "mimetype": "text/html",
+            "url": "https://api.unreserved-entry-pass.com/beckn/replacement.html"
+          }
+        }
+      ],
+      "quote": {
+        "breakup": [
+          {
+            "title": "BASE_FARE",
+            "item": {
+              "id": "3e4da92eb213408289739e8821aa8ffa",
+              "price": {
+                "currency": "INR",
+                "value": "250"
+              },
+              "quantity": {
+                "selected": {
+                  "count": 1
+                }
+              }
+            },
+            "price": {
+              "currency": "INR",
+              "value": "250"
+            }
+          }
+        ],
+        "price": {
+          "currency": "INR",
+          "value": "250"
+        }
+      }
+    }
+  }
+}

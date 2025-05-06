@@ -9,58 +9,62 @@
             }
         },
         "domain": "ONDC:TRV14",
-        "timestamp": "2025-04-11T11:28:19.012Z",
-        "transaction_id": "054fa603-ddb0-448a-9015-c5c8631ec815",
-        "message_id": "507a2528-bf14-4064-954b-935e9d478f60",
+        "timestamp": "2025-04-28T18:53:16.000Z",
+        "bap_id": "preprodbuyer.ondc.mondee.com",
+        "transaction_id": "e4i120k-2d7f-416f-aa69-cae77284e00e",
+        "message_id": "7b355323-11aa-4be9-9648-9628618b1157",
         "version": "2.0.0",
         "action": "on_select",
-        "bap_id": "ondc.stg.highwaydelite.com",
-        "bap_uri": "https://ondc.stg.highwaydelite.com/trv14",
-        "bpp_id": "stagingseller.ondc.mondee.com",
-        "bpp_uri": "https://stagingseller.ondc.mondee.com",
-        "ttl": "PT30S"
+        "bap_uri": "https://preprodbuyer.ondc.mondee.com",
+        "ttl": "PT30S",
+        "bpp_id": "preprodseller.ondc.mondee.com",
+        "bpp_uri": "https://preprodseller.ondc.mondee.com"
     },
     "message": {
         "order": {
             "items": [
                 {
-                    "id": "1502e6d7cfc14f15935a57bc5c765cdd",
+                    "id": "3e4da92eb213408289739e8821aa8ffa",
                     "descriptor": {
-                        "name": "Golden Pagodas & Serene Landscapes: A Journey Through Myanmar",
+                        "name": "Discover the enchanting beauty of Panchgani and Mahabaleshwar on a guided day trip from Pune!",
                         "code": "ENTRY_PASS",
-                        "short_desc": "Golden Pagodas & Serene Landscapes: A Journey Through Myanmar",
-                        "long_desc": "Arrival in Yangon & City ExplorationMandalay's Cultural HeritageInle Lake's Tranquility & Floating GardensAncient Wonders of BaganDeparture from Yangon",
+                        "short_desc": "Discover the enchanting beauty of Panchgani and Mahabaleshwar on a guided day trip from Pune!",
+                        "long_desc": "Embark on a breathtaking day trip to Mahabaleshwar and Panchgani from Pune!",
                         "images": [
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted1-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484431.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/a6.jpg",
                                 "size_type": "md"
                             },
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted2-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/aa.jpg",
                                 "size_type": "md"
                             },
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted3-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ab.jpg",
                                 "size_type": "md"
                             },
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted4-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ac.jpg",
                                 "size_type": "md"
                             },
                             {
-                                "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted5-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ad.jpg",
+                                "size_type": "md"
+                            },
+                            {
+                                "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/af.jpg",
                                 "size_type": "md"
                             }
                         ]
                     },
                     "location_ids": [
-                        "LEAU9KZ3KK3"
+                        "LD0TTDVB2FJ"
                     ],
                     "category_ids": [
+                        "C4",
                         "C1",
-                        "C5",
-                        "C3",
-                        "C4"
+                        "C2",
+                        "C3"
                     ],
                     "price": {
                         "currency": "INR",
@@ -71,7 +75,7 @@
                         "duration": "P2D"
                     },
                     "fulfillment_ids": [
-                        "FO3ARNJNFRN"
+                        "F2CCVI11Y2M"
                     ],
                     "cancellation_terms": [
                         {
@@ -82,12 +86,21 @@
                         "selected": {
                             "count": 1
                         }
+                    },
+                    "xinput": {
+                        "form": {
+                            "id": "FBMKBXA7W73"
+                        },
+                        "form_response": {
+                            "status": "SUCCESS",
+                            "submission_id": "1745845654949"
+                        }
                     }
                 }
             ],
             "fulfillments": [
                 {
-                    "id": "FH5C0FEBGLG",
+                    "id": "F7JJZVTHZ7J",
                     "type": "PLAN",
                     "stops": [
                         {
@@ -99,7 +112,7 @@
                                 }
                             },
                             "time": {
-                                "timestamp": "2025-04-11T09:00:00.000Z"
+                                "timestamp": "2025-04-28T09:00:00.000Z"
                             }
                         }
                     ],
@@ -107,14 +120,14 @@
                         "organization": {
                             "contact": {
                                 "phone": "",
-                                "email": "jmalhotra@mondee.com"
+                                "email": "samantha.viator@mondee.com"
                             }
                         }
                     },
                     "vehicle": {
                         "category": "SITE"
                     },
-                    "experienceId": "1502e6d7cfc14f15935a57bc5c765cdd"
+                    "experienceId": "3e4da92eb213408289739e8821aa8ffa"
                 }
             ],
             "provider": {
@@ -130,35 +143,39 @@
                 },
                 "locations": [
                     {
-                        "id": "LRXS30SL58S",
-                        "gps": "95.955974, 21.916221",
+                        "id": "LZ6PTJ4BAP1",
+                        "gps": "73.85309, 18.5042",
                         "descriptor": {
-                            "name": "Golden Pagodas & Serene Landscapes: A Journey Through Myanmar",
-                            "short_desc": "Arrival in Yangon & City ExplorationMandalay's Cultural HeritageInle Lake's Tranquility & Floating GardensAncient Wonders of BaganDeparture from Yangon",
+                            "name": "Discover the enchanting beauty of Panchgani and Mahabaleshwar on a guided day trip from Pune!",
+                            "short_desc": "Embark on a breathtaking day trip to Mahabaleshwar and Panchgani from Pune!",
                             "images": [
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted1-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484431.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/a6.jpg",
                                     "size_type": "md"
                                 },
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted2-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/aa.jpg",
                                     "size_type": "md"
                                 },
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted3-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ab.jpg",
                                     "size_type": "md"
                                 },
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted4-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ac.jpg",
                                     "size_type": "md"
                                 },
                                 {
-                                    "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1743595484/images/extracted5-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743595484432.jpg",
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/ad.jpg",
+                                    "size_type": "md"
+                                },
+                                {
+                                    "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/25/0a/af.jpg",
                                     "size_type": "md"
                                 }
                             ]
                         },
-                        "experienceId": "1502e6d7cfc14f15935a57bc5c765cdd"
+                        "experienceId": "3e4da92eb213408289739e8821aa8ffa"
                     }
                 ]
             },
@@ -212,7 +229,7 @@
                     {
                         "title": "BASE_FARE",
                         "item": {
-                            "id": "1502e6d7cfc14f15935a57bc5c765cdd",
+                            "id": "3e4da92eb213408289739e8821aa8ffa",
                             "price": {
                                 "currency": "INR",
                                 "value": "250"

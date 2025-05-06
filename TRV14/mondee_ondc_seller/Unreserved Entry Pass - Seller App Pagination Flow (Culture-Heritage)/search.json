@@ -9,13 +9,13 @@
             }
         },
         "domain": "ONDC:TRV14",
-        "timestamp": "2025-04-11T11:07:12.566Z",
-        "bap_id": "ondc.stg.highwaydelite.com",
+        "timestamp": "2025-04-28T22:55:54.594Z",
+        "bap_id": "preprodbuyer.ondc.mondee.com",
+        "transaction_id": "e4i120k-2d7f-416f-aa69-cae77284e00e",
+        "message_id": "7b355323-11aa-4be9-9648-9628618b1157",
         "version": "2.0.0",
         "action": "search",
-        "bap_uri": "https://ondc.stg.highwaydelite.com/trv14",
-        "transaction_id": "0170d101-d698-4d68-a243-f27891a2a4a8",
-        "message_id": "b5deb597-3b0c-41ab-b0d9-bb5ca96909d4",
+        "bap_uri": "https://preprodbuyer.ondc.mondee.com/",
         "ttl": "PT30S"
     },
     "message": {
@@ -35,7 +35,7 @@
                             }
                         },
                         "time": {
-                            "timestamp": "2025-04-11T11:07:12.566Z"
+                            "timestamp": "2025-04-28T22:55:54.594Z"
                         }
                     }
                 ],
@@ -58,31 +58,31 @@
                             "descriptor": {
                                 "code": "BUYER_FINDER_FEES_PERCENTAGE"
                             },
-                            "value": "1"
+                            "value": "3"
                         },
                         {
                             "descriptor": {
                                 "code": "BUYER_FINDER_FEES_TYPE"
                             },
-                            "value": "percent"
-                        },
-                        {
-                            "descriptor": {
-                                "code": "SETTLEMENT_WINDOW"
-                            },
-                            "value": "P30D"
-                        },
-                        {
-                            "descriptor": {
-                                "code": "SETTLEMENT_BASIS"
-                            },
-                            "value": "INVOICE_RECEIPT"
+                            "value": "1"
                         },
                         {
                             "descriptor": {
                                 "code": "STATIC_TERMS"
                             },
                             "value": "https://api.example-bap.com/booking/terms"
+                        },
+                        {
+                            "descriptor": {
+                                "code": "SETTLEMENT_BASIS"
+                            },
+                            "value": "https://api.example-bap.com/booking/terms"
+                        },
+                        {
+                            "descriptor": {
+                                "code": "SETTLEMENT_WINDOW"
+                            },
+                            "value": "P30D"
                         }
                     ]
                 }

@@ -9,16 +9,16 @@
             }
         },
         "domain": "ONDC:TRV14",
-        "timestamp": "2025-04-11T11:07:12.566Z",
-        "bap_id": "ondc.stg.highwaydelite.com",
+        "timestamp": "2025-04-28T22:55:54.594Z",
+        "bap_id": "preprodbuyer.ondc.mondee.com",
+        "transaction_id": "e4i120k-2d7f-416f-aa69-cae77284e00e",
+        "message_id": "7b355323-11aa-4be9-9648-9628618b1157",
         "version": "2.0.0",
         "action": "on_search",
-        "bap_uri": "https://ondc.stg.highwaydelite.com/trv14",
-        "transaction_id": "0170d101-d698-4d68-a243-f27891a2a4a8",
-        "message_id": "b5deb597-3b0c-41ab-b0d9-bb5ca96909d4",
+        "bap_uri": "https://preprodbuyer.ondc.mondee.com/",
         "ttl": "PT30S",
-        "bpp_id": "stagingseller.ondc.mondee.com",
-        "bpp_uri": "https://stagingseller.ondc.mondee.com"
+        "bpp_id": "preprodseller.ondc.mondee.com",
+        "bpp_uri": "https://preprodseller.ondc.mondee.com"
     },
     "message": {
         "catalog": {
@@ -55,6 +55,13 @@
                         },
                         {
                             "descriptor": {
+                                "name": "Entertainment",
+                                "code": "ENTERTAINMENT"
+                            },
+                            "id": "C7"
+                        },
+                        {
+                            "descriptor": {
                                 "name": "Tours & Sightseeing",
                                 "code": "TOURS_SIGHTSEEING"
                             },
@@ -80,28 +87,64 @@
                                 "code": "FOOD_DINING"
                             },
                             "id": "C5"
-                        },
-                        {
-                            "descriptor": {
-                                "name": "Entertainment",
-                                "code": "ENTERTAINMENT"
-                            },
-                            "id": "C7"
                         }
                     ],
                     "time": {
                         "range": {
-                            "start": "2025-04-11T09:00:00.000Z",
-                            "end": "2025-04-16T18:00:00.000Z"
+                            "start": "2025-04-28T09:00:00.000Z",
+                            "end": "2025-05-03T18:00:00.000Z"
                         }
                     },
                     "locations": [
                         {
-                            "id": "L8BQ8E7JWPT",
+                            "id": "L9XGPSAOFMJ",
+                            "gps": "78.042175, 27.174385",
+                            "descriptor": {
+                                "name": "Experience the Taj Mahal in just one day with seamless flights from Mumbai, Bangalore, or Hyderabad!",
+                                "short_desc": "Experience the timeless beauty of the Taj Mahal and Agra's historic gems with our exclusive tour from Mumbai, Bangalore, or Hyderabad!",
+                                "images": [
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/ff.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/87/91/d9.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/87/92/33.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/fa.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/fb.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/fd.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/fe.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/ec/01.jpg",
+                                        "size_type": "md"
+                                    }
+                                ]
+                            },
+                            "experienceId": "e2f11e3b3eba4318af7ed32deda03543"
+                        },
+                        {
+                            "id": "L602FSWFVGJ",
                             "gps": "78.054596, 27.160555",
                             "descriptor": {
                                 "name": "Explore the wonders of Agra and Jaipur on a 3-day cultural journey from Delhi!",
-                                "short_desc": " New Delhi – Agra (210 Kms, 3.5 Hours Drive)Agra - Jaipur (240 kilometers/approximately - 4-Hours)Jaipur Local sightseeing and Delhi Departure",
+                                "short_desc": " New Delhi â€“ Agra (210 Kms, 3.5 Hours Drive)Agra - Jaipur (240 kilometers/approximately - 4-Hours)Jaipur Local sightseeing and Delhi Departure",
                                 "images": [
                                     {
                                         "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/7a/8f/6a.jpg",
@@ -240,7 +283,53 @@
                             "experienceId": "f0741211f92c4df0abaaba817f4d05e3"
                         },
                         {
-                            "id": "LCTW4LGP8V7",
+                            "id": "L1OXKRE0521",
+                            "gps": "78.054596, 27.160555",
+                            "descriptor": {
+                                "name": "Embark on a romantic journey through Agra's enchanting love stories!",
+                                "short_desc": "Experience timeless romance on a captivating tour of Agra!",
+                                "images": [
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b2.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b3.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b5.jpg",
+                                        "size_type": "md"
+                                    }
+                                ]
+                            },
+                            "experienceId": "a7937cbf6da2402c991da29300ef57f3"
+                        },
+                        {
+                            "id": "LPPXMFE9GYI",
+                            "gps": "78.054596, 27.160555",
+                            "descriptor": {
+                                "name": "Discover Agra's hidden gems and iconic landmarks on an enchanting walking tour!",
+                                "short_desc": "Discover Agra's Hidden Gems on Foot!",
+                                "images": [
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b3.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b2.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b5.jpg",
+                                        "size_type": "md"
+                                    }
+                                ]
+                            },
+                            "experienceId": "0c8110a86d1b4d298d872aebb53c3f88"
+                        },
+                        {
+                            "id": "LGIHYFEMSFO",
                             "gps": "75.8513, 26.9855",
                             "descriptor": {
                                 "name": "A Day in the Pink City: Exploring Jaipur's Gems",
@@ -255,7 +344,7 @@
                             "experienceId": "bcb170f41fe845429ccf0496b9bc60b4"
                         },
                         {
-                            "id": "LS6CAUEUM26",
+                            "id": "L1V84PBOQQ4",
                             "gps": "75.748722, 27.032222",
                             "descriptor": {
                                 "name": "Escape to Glory @ Priana: Where luxury meets tranquility in Jaipur's serene embrace.",
@@ -446,7 +535,7 @@
                             "experienceId": "dfe08ac8aa084639b93c64836551d7fc"
                         },
                         {
-                            "id": "LDGVXTSTIXJ",
+                            "id": "LBA7GZV7L2E",
                             "gps": "75.82674, 26.924007",
                             "descriptor": {
                                 "name": "Explore Jaipur's hidden gems with a personalized guided tour!",
@@ -497,11 +586,11 @@
                             "experienceId": "75eaf557198b45419fdbacb2d48cf117"
                         },
                         {
-                            "id": "LFININK5Z8M",
+                            "id": "LW40HWG8ABY",
                             "gps": "75.82456, 26.924776",
                             "descriptor": {
                                 "name": "Discover the regal allure of Rajasthan's palaces and vibrant cities on a private tour.",
-                                "short_desc": "Arrival in JaipurjaipurJaipur - JodhpurJodhpur – Udaipur via Ranakpur Jain TemplesUdaipur sightseeingUdaipur - Delhi",
+                                "short_desc": "Arrival in JaipurjaipurJaipur - JodhpurJodhpur â€“ Udaipur via Ranakpur Jain TemplesUdaipur sightseeingUdaipur - Delhi",
                                 "images": [
                                     {
                                         "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/d9/ca/c0.jpg",
@@ -528,7 +617,7 @@
                             "experienceId": "e41197121225417b83ffec68d73fea3d"
                         },
                         {
-                            "id": "LTH2D7VNXZM",
+                            "id": "L70CDTNV7K6",
                             "gps": "75.7938, 26.9204",
                             "descriptor": {
                                 "name": "Embark on a thrilling private safari adventure from Jaipur to Sariska Tiger Reserve!",
@@ -571,7 +660,30 @@
                             "experienceId": "f995ccf5b15b43ff8a3afac445a047cb"
                         },
                         {
-                            "id": "LSTI7HLXRVF",
+                            "id": "L2K54XYUUSV",
+                            "gps": "75.79276, 26.9143",
+                            "descriptor": {
+                                "name": "Discover Jaipur's enchanting romance on a guided tour of love's hidden stories!",
+                                "short_desc": "Experience the magic of love in the Pink City with our Romantic Tour in Jaipur!",
+                                "images": [
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/16.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/15.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/18.jpg",
+                                        "size_type": "md"
+                                    }
+                                ]
+                            },
+                            "experienceId": "5285ae8a25fa4090bc5bea6d304d8b53"
+                        },
+                        {
+                            "id": "L4H0J9P20G9",
                             "gps": "75.79276, 26.9143",
                             "descriptor": {
                                 "name": "Discover Agra's iconic wonders on a luxurious journey from Jaipur to Delhi!",
@@ -618,30 +730,7 @@
                             "experienceId": "50089620e7564ad1b7b0e5a23e51e8c5"
                         },
                         {
-                            "id": "L70M0LAFBGL",
-                            "gps": "75.79276, 26.9143",
-                            "descriptor": {
-                                "name": "Discover Jaipur's enchanting romance on a guided tour of love's hidden stories!",
-                                "short_desc": "Experience the magic of love in the Pink City with our Romantic Tour in Jaipur!",
-                                "images": [
-                                    {
-                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/16.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/15.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/18.jpg",
-                                        "size_type": "md"
-                                    }
-                                ]
-                            },
-                            "experienceId": "5285ae8a25fa4090bc5bea6d304d8b53"
-                        },
-                        {
-                            "id": "LCGB5DRMNPQ",
+                            "id": "L0ARF7AXW4O",
                             "gps": "75.79276, 26.9143",
                             "descriptor": {
                                 "name": "Discover Jaipur's hidden gems on an enchanting walking tour!",
@@ -664,7 +753,7 @@
                             "experienceId": "de4a6529162348b18c2ce8d7ce1d503e"
                         },
                         {
-                            "id": "LYH4M3QSXM5",
+                            "id": "LKU4QC2F8DT",
                             "gps": "79.551069, 29.428113",
                             "descriptor": {
                                 "name": "Unwind in luxury at Sunstone @ Barkat Villa with breathtaking Himalayan views and a glasshouse jacuzzi.",
@@ -783,11 +872,11 @@
                             "experienceId": "c0b2bd426b58489cbb3d9f601bf4b467"
                         },
                         {
-                            "id": "L6S4DYDZD4I",
+                            "id": "LUQ673U9Y49",
                             "gps": "76.979467, 30.879306",
                             "descriptor": {
-                                "name": "Experience luxury and charm at Chestnut Manor, where every moment is bliss.",
-                                "short_desc": "Escape to the timeless elegance of Chestnut Manor for a serene getaway.",
+                                "name": "Experience regal relaxation and luxury at Chestnut Manor in Kasauli.",
+                                "short_desc": "Discover timeless elegance and tranquility at Chestnut Manor.",
                                 "images": [
                                     {
                                         "url": "https://img.vistarooms.com/gallery/sudhanshu-gaurav-kasauli-9b2c66.jpg",
@@ -899,25 +988,10 @@
                                     }
                                 ]
                             },
-                            "experienceId": "c6ca3b754bf94d229059f188b4b59958"
+                            "experienceId": "ec48588572e14068ae7e6f6b2bbdb6c9"
                         },
                         {
-                            "id": "L4MMSDQ0PAO",
-                            "gps": "79.6667, 29.5333",
-                            "descriptor": {
-                                "name": "Wildlife Safari in Jim Corbett National Park",
-                                "short_desc": "Guided Nature Walk and Countryside Bike RideForest Hike and Village Visit",
-                                "images": [
-                                    {
-                                        "url": "https://res.cloudinary.com/dddd9bezd/video/upload/v1743578119/images/83aefc10-3b0c-4914-b311-9f33f0de6b8a1743578115532-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743578119246.mp4",
-                                        "size_type": "md"
-                                    }
-                                ]
-                            },
-                            "experienceId": "9c2c4b06cbec426eb2629c65385fdf8d"
-                        },
-                        {
-                            "id": "L98BVV2IKA6",
+                            "id": "LH45XQA6UTJ",
                             "gps": "76.198423, 31.30637",
                             "descriptor": {
                                 "name": "Escape to Amaya @ Artisanal Heights: A Sustainable Retreat with Stunning Views and Luxurious Amenities!",
@@ -1036,7 +1110,7 @@
                             "experienceId": "23eeb18cbb7544e29e5beb7a9b0a233a"
                         },
                         {
-                            "id": "LD13H1PIW0L",
+                            "id": "LAZRX34ETXH",
                             "gps": "76.198423, 31.30637",
                             "descriptor": {
                                 "name": "Escape to Daik @ Artisanal Heights: Where luxury meets nature with stunning views and endless amenities!",
@@ -1155,7 +1229,7 @@
                             "experienceId": "02260f47997b4cc9adc5dd36ddc44598"
                         },
                         {
-                            "id": "L36S0VE6KK7",
+                            "id": "LYZNY3JQ25W",
                             "gps": "76.198423, 31.30637",
                             "descriptor": {
                                 "name": "Escape to Daik @ Artisanal Heights: Luxury, Sustainability, and Serenity Await!",
@@ -1274,7 +1348,7 @@
                             "experienceId": "a6fa778bd3644eb49ce232041ec74c29"
                         },
                         {
-                            "id": "LIWBG95UKH0",
+                            "id": "LNP27P4W4VS",
                             "gps": "76.198423, 31.30637",
                             "descriptor": {
                                 "name": "Escape to Amaya @ Artisanal Heights: Where Elegance Meets Nature!",
@@ -1393,7 +1467,7 @@
                             "experienceId": "d8483456938b4b2381ed864b5ee2be23"
                         },
                         {
-                            "id": "LN0NLUYH77T",
+                            "id": "LD0LV4K8GLB",
                             "gps": "76.198423, 31.30637",
                             "descriptor": {
                                 "name": "Escape to Palaash @ Artisanal Heights for luxury, serenity, and sustainable elegance.",
@@ -1512,7 +1586,7 @@
                             "experienceId": "8299ccb43f5b47a592ff037a4f742bea"
                         },
                         {
-                            "id": "L83V46UHLLD",
+                            "id": "LY2Y7YE1HJV",
                             "gps": "76.198423, 31.30637",
                             "descriptor": {
                                 "name": "Experience luxury and tranquility at Srinh @ Artisanal Heights with breathtaking views and exclusive amenities.",
@@ -1665,166 +1739,83 @@
                                 ]
                             },
                             "experienceId": "d31bec6211b54229adbf964962e844dc"
-                        },
-                        {
-                            "id": "LHL8RS3SQGH",
-                            "gps": "76.198423, 31.30637",
-                            "descriptor": {
-                                "name": "Unwind at Sheesham @ Artisanal Heights: A serene escape with luxury amenities and stunning views.",
-                                "short_desc": "Sheesham @ Artisanal Heights w/ Jacuzzi and Infinity Pool",
-                                "images": [
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-488d1a.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-9f4b45.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-0cd7aa.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-5e1398.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-90d2f4.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-7bffdd.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-a81347.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-7de536.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-069809.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-8f0f30.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-dfd80e.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-b61dc9.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-aa72b7.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-a34f56.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-185ce4.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-99c543.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-fb8c91.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-cc986b.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-415bb3.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-1ddfeb.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-b89dba.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-982f2b.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-4cc7f2.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-ea9990.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-af434e.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-93343b.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-b888f1.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-2e3684.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-1e0395.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-b55c69.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-0f29a5.jpg",
-                                        "size_type": "md"
-                                    }
-                                ]
-                            },
-                            "experienceId": "4d35eb1d21614e67bf7c0f08a1fa23e6"
-                        },
-                        {
-                            "id": "L653ESZAWEK",
-                            "gps": "77.1887, 32.2396",
-                            "descriptor": {
-                                "name": "Ghepan Lake Trek: A 5-Day Himalayan Adventure",
-                                "short_desc": "Journey to SissuTrek to Camp 1Ascend to Camp 2Explore Ghepan LakeReturn to Manali",
-                                "images": [
-                                    {
-                                        "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1740742374/images/X3GauravItinerary5BGhepanLakeTrek5Ddocx.pdf",
-                                        "size_type": "md"
-                                    }
-                                ]
-                            },
-                            "experienceId": "0a73a14d6b3146fc8b5826e728e1c450"
                         }
                     ],
                     "items": [
+                        {
+                            "id": "e2f11e3b3eba4318af7ed32deda03543",
+                            "descriptor": {
+                                "name": "Experience the Taj Mahal in just one day with seamless flights from Mumbai, Bangalore, or Hyderabad!",
+                                "code": "ENTRY_PASS",
+                                "short_desc": "Experience the Taj Mahal in just one day with seamless flights from Mumbai, Bangalore, or Hyderabad!",
+                                "long_desc": "Experience the timeless beauty of the Taj Mahal and Agra's historic gems with our exclusive tour from Mumbai, Bangalore, or Hyderabad!",
+                                "images": [
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/ff.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/87/91/d9.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/87/92/33.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/fa.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/fb.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/fd.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/eb/fe.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/95/ec/01.jpg",
+                                        "size_type": "md"
+                                    }
+                                ]
+                            },
+                            "location_ids": [
+                                "L9XGPSAOFMJ"
+                            ],
+                            "category_ids": [
+                                "C1",
+                                "C7",
+                                "C4"
+                            ],
+                            "price": {
+                                "currency": "INR",
+                                "value": "1280.46"
+                            },
+                            "time": {
+                                "label": "VALIDITY",
+                                "duration": "P2D"
+                            },
+                            "fulfillment_ids": [
+                                "FSVKTB8O6ZK"
+                            ],
+                            "cancellation_terms": [
+                                {
+                                    "cancellation_eligible": true
+                                }
+                            ]
+                        },
                         {
                             "id": "f0741211f92c4df0abaaba817f4d05e3",
                             "descriptor": {
                                 "name": "Explore the wonders of Agra and Jaipur on a 3-day cultural journey from Delhi!",
                                 "code": "ENTRY_PASS",
                                 "short_desc": "Explore the wonders of Agra and Jaipur on a 3-day cultural journey from Delhi!",
-                                "long_desc": " New Delhi – Agra (210 Kms, 3.5 Hours Drive)Agra - Jaipur (240 kilometers/approximately - 4-Hours)Jaipur Local sightseeing and Delhi Departure",
+                                "long_desc": " New Delhi â€“ Agra (210 Kms, 3.5 Hours Drive)Agra - Jaipur (240 kilometers/approximately - 4-Hours)Jaipur Local sightseeing and Delhi Departure",
                                 "images": [
                                     {
                                         "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/7a/8f/6a.jpg",
@@ -1961,7 +1952,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "L8BQ8E7JWPT"
+                                "L602FSWFVGJ"
                             ],
                             "category_ids": [
                                 "C1",
@@ -1970,14 +1961,111 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "19206.91"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FJW7UEODIBM"
+                                "FZAZZAUKRL0"
+                            ],
+                            "cancellation_terms": [
+                                {
+                                    "cancellation_eligible": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a7937cbf6da2402c991da29300ef57f3",
+                            "descriptor": {
+                                "name": "Embark on a romantic journey through Agra's enchanting love stories!",
+                                "code": "ENTRY_PASS",
+                                "short_desc": "Embark on a romantic journey through Agra's enchanting love stories!",
+                                "long_desc": "Experience timeless romance on a captivating tour of Agra!",
+                                "images": [
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b2.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b3.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b5.jpg",
+                                        "size_type": "md"
+                                    }
+                                ]
+                            },
+                            "location_ids": [
+                                "L1OXKRE0521"
+                            ],
+                            "category_ids": [
+                                "C1",
+                                "C2",
+                                "C4",
+                                "C5",
+                                "C7"
+                            ],
+                            "price": {
+                                "currency": "INR",
+                                "value": "38855.04"
+                            },
+                            "time": {
+                                "label": "VALIDITY",
+                                "duration": "P2D"
+                            },
+                            "fulfillment_ids": [
+                                "FCGUDETHW4E"
+                            ],
+                            "cancellation_terms": [
+                                {
+                                    "cancellation_eligible": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0c8110a86d1b4d298d872aebb53c3f88",
+                            "descriptor": {
+                                "name": "Discover Agra's hidden gems and iconic landmarks on an enchanting walking tour!",
+                                "code": "ENTRY_PASS",
+                                "short_desc": "Discover Agra's hidden gems and iconic landmarks on an enchanting walking tour!",
+                                "long_desc": "Discover Agra's Hidden Gems on Foot!",
+                                "images": [
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b3.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b2.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/fe/b5.jpg",
+                                        "size_type": "md"
+                                    }
+                                ]
+                            },
+                            "location_ids": [
+                                "LPPXMFE9GYI"
+                            ],
+                            "category_ids": [
+                                "C4",
+                                "C1",
+                                "C3",
+                                "C2"
+                            ],
+                            "price": {
+                                "currency": "INR",
+                                "value": "38855.04"
+                            },
+                            "time": {
+                                "label": "VALIDITY",
+                                "duration": "P2D"
+                            },
+                            "fulfillment_ids": [
+                                "FQVIWNDVKVF"
                             ],
                             "cancellation_terms": [
                                 {
@@ -2000,7 +2088,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LCTW4LGP8V7"
+                                "LGIHYFEMSFO"
                             ],
                             "category_ids": [
                                 "C1",
@@ -2011,14 +2099,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "200.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FPA5FMSEK7Y"
+                                "F8SE1ROKIVO"
                             ],
                             "cancellation_terms": [
                                 {
@@ -2217,21 +2305,21 @@
                                 ]
                             },
                             "location_ids": [
-                                "LS6CAUEUM26"
+                                "L1V84PBOQQ4"
                             ],
                             "category_ids": [
                                 "C2"
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "0.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FTO1LKML253"
+                                "F7BCWN5FEOV"
                             ],
                             "cancellation_terms": [
                                 {
@@ -2290,7 +2378,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LDGVXTSTIXJ"
+                                "LBA7GZV7L2E"
                             ],
                             "category_ids": [
                                 "C1",
@@ -2299,14 +2387,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "4000.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FHQ7824WR71"
+                                "FN2VBI8S1R1"
                             ],
                             "cancellation_terms": [
                                 {
@@ -2320,7 +2408,7 @@
                                 "name": "Discover the regal allure of Rajasthan's palaces and vibrant cities on a private tour.",
                                 "code": "ENTRY_PASS",
                                 "short_desc": "Discover the regal allure of Rajasthan's palaces and vibrant cities on a private tour.",
-                                "long_desc": "Arrival in JaipurjaipurJaipur - JodhpurJodhpur – Udaipur via Ranakpur Jain TemplesUdaipur sightseeingUdaipur - Delhi",
+                                "long_desc": "Arrival in JaipurjaipurJaipur - JodhpurJodhpur â€“ Udaipur via Ranakpur Jain TemplesUdaipur sightseeingUdaipur - Delhi",
                                 "images": [
                                     {
                                         "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/d9/ca/c0.jpg",
@@ -2345,7 +2433,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LFININK5Z8M"
+                                "LW40HWG8ABY"
                             ],
                             "category_ids": [
                                 "C1",
@@ -2354,14 +2442,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "56454.66"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FJKAT402ZIB"
+                                "FW3BHUA3DIE"
                             ],
                             "cancellation_terms": [
                                 {
@@ -2412,7 +2500,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LTH2D7VNXZM"
+                                "L70CDTNV7K6"
                             ],
                             "category_ids": [
                                 "C4",
@@ -2423,14 +2511,62 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "6829.12"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FMDOK8NNFEP"
+                                "FZOVED2VVKC"
+                            ],
+                            "cancellation_terms": [
+                                {
+                                    "cancellation_eligible": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5285ae8a25fa4090bc5bea6d304d8b53",
+                            "descriptor": {
+                                "name": "Discover Jaipur's enchanting romance on a guided tour of love's hidden stories!",
+                                "code": "ENTRY_PASS",
+                                "short_desc": "Discover Jaipur's enchanting romance on a guided tour of love's hidden stories!",
+                                "long_desc": "Experience the magic of love in the Pink City with our Romantic Tour in Jaipur!",
+                                "images": [
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/16.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/15.jpg",
+                                        "size_type": "md"
+                                    },
+                                    {
+                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/18.jpg",
+                                        "size_type": "md"
+                                    }
+                                ]
+                            },
+                            "location_ids": [
+                                "L2K54XYUUSV"
+                            ],
+                            "category_ids": [
+                                "C1",
+                                "C2",
+                                "C4",
+                                "C7"
+                            ],
+                            "price": {
+                                "currency": "INR",
+                                "value": "38855.04"
+                            },
+                            "time": {
+                                "label": "VALIDITY",
+                                "duration": "P2D"
+                            },
+                            "fulfillment_ids": [
+                                "FUCCYX5XED0"
                             ],
                             "cancellation_terms": [
                                 {
@@ -2485,7 +2621,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LSTI7HLXRVF"
+                                "L4H0J9P20G9"
                             ],
                             "category_ids": [
                                 "C1",
@@ -2495,62 +2631,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "7500.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "F9MEUWJF465"
-                            ],
-                            "cancellation_terms": [
-                                {
-                                    "cancellation_eligible": true
-                                }
-                            ]
-                        },
-                        {
-                            "id": "5285ae8a25fa4090bc5bea6d304d8b53",
-                            "descriptor": {
-                                "name": "Discover Jaipur's enchanting romance on a guided tour of love's hidden stories!",
-                                "code": "ENTRY_PASS",
-                                "short_desc": "Discover Jaipur's enchanting romance on a guided tour of love's hidden stories!",
-                                "long_desc": "Experience the magic of love in the Pink City with our Romantic Tour in Jaipur!",
-                                "images": [
-                                    {
-                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/16.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/15.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/08/0a/18.jpg",
-                                        "size_type": "md"
-                                    }
-                                ]
-                            },
-                            "location_ids": [
-                                "L70M0LAFBGL"
-                            ],
-                            "category_ids": [
-                                "C1",
-                                "C2",
-                                "C4",
-                                "C7"
-                            ],
-                            "price": {
-                                "currency": "INR",
-                                "value": "250"
-                            },
-                            "time": {
-                                "label": "VALIDITY",
-                                "duration": "P2D"
-                            },
-                            "fulfillment_ids": [
-                                "FSH5P6PDG9H"
+                                "F9ILHDIY2F9"
                             ],
                             "cancellation_terms": [
                                 {
@@ -2581,7 +2669,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LCGB5DRMNPQ"
+                                "L0ARF7AXW4O"
                             ],
                             "category_ids": [
                                 "C4",
@@ -2591,14 +2679,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "38855.04"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "F7O2YEPS14F"
+                                "F5S51HCJ108"
                             ],
                             "cancellation_terms": [
                                 {
@@ -2725,7 +2813,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LYH4M3QSXM5"
+                                "LKU4QC2F8DT"
                             ],
                             "category_ids": [
                                 "C2",
@@ -2733,14 +2821,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "0.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FI31BBF87K3"
+                                "FQ3ND70DW78"
                             ],
                             "cancellation_terms": [
                                 {
@@ -2749,12 +2837,12 @@
                             ]
                         },
                         {
-                            "id": "c6ca3b754bf94d229059f188b4b59958",
+                            "id": "ec48588572e14068ae7e6f6b2bbdb6c9",
                             "descriptor": {
-                                "name": "Experience luxury and charm at Chestnut Manor, where every moment is bliss.",
+                                "name": "Experience regal relaxation and luxury at Chestnut Manor in Kasauli.",
                                 "code": "ENTRY_PASS",
-                                "short_desc": "Experience luxury and charm at Chestnut Manor, where every moment is bliss.",
-                                "long_desc": "Escape to the timeless elegance of Chestnut Manor for a serene getaway.",
+                                "short_desc": "Experience regal relaxation and luxury at Chestnut Manor in Kasauli.",
+                                "long_desc": "Discover timeless elegance and tranquility at Chestnut Manor.",
                                 "images": [
                                     {
                                         "url": "https://img.vistarooms.com/gallery/sudhanshu-gaurav-kasauli-9b2c66.jpg",
@@ -2867,57 +2955,19 @@
                                 ]
                             },
                             "location_ids": [
-                                "L6S4DYDZD4I"
-                            ],
-                            "category_ids": [
-                                "C2",
-                                "C7"
-                            ],
-                            "price": {
-                                "currency": "INR",
-                                "value": "250"
-                            },
-                            "time": {
-                                "label": "VALIDITY",
-                                "duration": "P2D"
-                            },
-                            "fulfillment_ids": [
-                                "FMZFQQKAAQX"
-                            ],
-                            "cancellation_terms": [
-                                {
-                                    "cancellation_eligible": true
-                                }
-                            ]
-                        },
-                        {
-                            "id": "9c2c4b06cbec426eb2629c65385fdf8d",
-                            "descriptor": {
-                                "name": "Wildlife Safari in Jim Corbett National Park",
-                                "code": "ENTRY_PASS",
-                                "short_desc": "Wildlife Safari in Jim Corbett National Park",
-                                "long_desc": "Guided Nature Walk and Countryside Bike RideForest Hike and Village Visit",
-                                "images": [
-                                    {
-                                        "url": "https://res.cloudinary.com/dddd9bezd/video/upload/v1743578119/images/83aefc10-3b0c-4914-b311-9f33f0de6b8a1743578115532-83aefc10-3b0c-4914-b311-9f33f0de6b8a-1743578119246.mp4",
-                                        "size_type": "md"
-                                    }
-                                ]
-                            },
-                            "location_ids": [
-                                "L4MMSDQ0PAO"
+                                "LUQ673U9Y49"
                             ],
                             "category_ids": [],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "2000.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FFJTQ7WB70D"
+                                "F8PLH1F7H6L"
                             ],
                             "cancellation_terms": [
                                 {
@@ -3044,7 +3094,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "L98BVV2IKA6"
+                                "LH45XQA6UTJ"
                             ],
                             "category_ids": [
                                 "C2",
@@ -3053,14 +3103,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "0.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FEKJTL6QG0C"
+                                "FFV4ULG456B"
                             ],
                             "cancellation_terms": [
                                 {
@@ -3187,7 +3237,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LD13H1PIW0L"
+                                "LAZRX34ETXH"
                             ],
                             "category_ids": [
                                 "C2",
@@ -3196,14 +3246,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "0.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FGH1YLOU23Y"
+                                "FFGPIAPLK2E"
                             ],
                             "cancellation_terms": [
                                 {
@@ -3330,7 +3380,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "L36S0VE6KK7"
+                                "LYZNY3JQ25W"
                             ],
                             "category_ids": [
                                 "C2",
@@ -3340,14 +3390,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "0.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FANNQMQQHWY"
+                                "FBPUUDD7J2O"
                             ],
                             "cancellation_terms": [
                                 {
@@ -3474,7 +3524,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LIWBG95UKH0"
+                                "LNP27P4W4VS"
                             ],
                             "category_ids": [
                                 "C2",
@@ -3484,14 +3534,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "0.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "FD6KUAU6YLF"
+                                "F0C8JQR9XU8"
                             ],
                             "cancellation_terms": [
                                 {
@@ -3618,7 +3668,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "LN0NLUYH77T"
+                                "LD0LV4K8GLB"
                             ],
                             "category_ids": [
                                 "C2",
@@ -3628,14 +3678,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "0.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "F8719LV9F96"
+                                "FQYZ92LYKWZ"
                             ],
                             "cancellation_terms": [
                                 {
@@ -3798,7 +3848,7 @@
                                 ]
                             },
                             "location_ids": [
-                                "L83V46UHLLD"
+                                "LY2Y7YE1HJV"
                             ],
                             "category_ids": [
                                 "C2",
@@ -3807,213 +3857,14 @@
                             ],
                             "price": {
                                 "currency": "INR",
-                                "value": "250"
+                                "value": "0.0"
                             },
                             "time": {
                                 "label": "VALIDITY",
                                 "duration": "P2D"
                             },
                             "fulfillment_ids": [
-                                "F2YRHN8WZE8"
-                            ],
-                            "cancellation_terms": [
-                                {
-                                    "cancellation_eligible": true
-                                }
-                            ]
-                        },
-                        {
-                            "id": "4d35eb1d21614e67bf7c0f08a1fa23e6",
-                            "descriptor": {
-                                "name": "Unwind at Sheesham @ Artisanal Heights: A serene escape with luxury amenities and stunning views.",
-                                "code": "ENTRY_PASS",
-                                "short_desc": "Unwind at Sheesham @ Artisanal Heights: A serene escape with luxury amenities and stunning views.",
-                                "long_desc": "Sheesham @ Artisanal Heights w/ Jacuzzi and Infinity Pool",
-                                "images": [
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-488d1a.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-9f4b45.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-0cd7aa.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-5e1398.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-90d2f4.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-7bffdd.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-a81347.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-7de536.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-069809.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-8f0f30.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-dfd80e.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-b61dc9.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-aa72b7.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-a34f56.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-185ce4.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-99c543.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-fb8c91.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-cc986b.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-415bb3.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-1ddfeb.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-b89dba.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-982f2b.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-4cc7f2.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-ea9990.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-af434e.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-93343b.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-b888f1.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-2e3684.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-1e0395.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-b55c69.jpg",
-                                        "size_type": "md"
-                                    },
-                                    {
-                                        "url": "https://img.vistarooms.com/gallery/sheesham-at-artisanal-heights-w-jacuzzi-and-infinity-pool-0f29a5.jpg",
-                                        "size_type": "md"
-                                    }
-                                ]
-                            },
-                            "location_ids": [
-                                "LHL8RS3SQGH"
-                            ],
-                            "category_ids": [
-                                "C2",
-                                "C7",
-                                "C5"
-                            ],
-                            "price": {
-                                "currency": "INR",
-                                "value": "250"
-                            },
-                            "time": {
-                                "label": "VALIDITY",
-                                "duration": "P2D"
-                            },
-                            "fulfillment_ids": [
-                                "F9CPFHCB8F0"
-                            ],
-                            "cancellation_terms": [
-                                {
-                                    "cancellation_eligible": true
-                                }
-                            ]
-                        },
-                        {
-                            "id": "0a73a14d6b3146fc8b5826e728e1c450",
-                            "descriptor": {
-                                "name": "Ghepan Lake Trek: A 5-Day Himalayan Adventure",
-                                "code": "ENTRY_PASS",
-                                "short_desc": "Ghepan Lake Trek: A 5-Day Himalayan Adventure",
-                                "long_desc": "Journey to SissuTrek to Camp 1Ascend to Camp 2Explore Ghepan LakeReturn to Manali",
-                                "images": [
-                                    {
-                                        "url": "https://res.cloudinary.com/dddd9bezd/image/upload/v1740742374/images/X3GauravItinerary5BGhepanLakeTrek5Ddocx.pdf",
-                                        "size_type": "md"
-                                    }
-                                ]
-                            },
-                            "location_ids": [
-                                "L653ESZAWEK"
-                            ],
-                            "category_ids": [
-                                "C3",
-                                "C4",
-                                "C7",
-                                "C2"
-                            ],
-                            "price": {
-                                "currency": "INR",
-                                "value": "250"
-                            },
-                            "time": {
-                                "label": "VALIDITY",
-                                "duration": "P2D"
-                            },
-                            "fulfillment_ids": [
-                                "F1RPW0LX2KV"
+                                "FJYIQ0JD4YK"
                             ],
                             "cancellation_terms": [
                                 {
@@ -4024,7 +3875,7 @@
                     ],
                     "fulfillments": [
                         {
-                            "id": "FJW7UEODIBM",
+                            "id": "FSVKTB8O6ZK",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4036,7 +3887,37 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
+                                    }
+                                }
+                            ],
+                            "agent": {
+                                "organization": {
+                                    "contact": {
+                                        "phone": "",
+                                        "email": "samantha.viator@mondee.com"
+                                    }
+                                }
+                            },
+                            "vehicle": {
+                                "category": "SITE"
+                            },
+                            "experienceId": "e2f11e3b3eba4318af7ed32deda03543"
+                        },
+                        {
+                            "id": "FZAZZAUKRL0",
+                            "type": "PLAN",
+                            "stops": [
+                                {
+                                    "type": "START",
+                                    "instructions": {
+                                        "additional_desc": {
+                                            "url": "https://ondc-official.github.io/mobility-specification/",
+                                            "content_type": "text/plain"
+                                        }
+                                    },
+                                    "time": {
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4054,7 +3935,7 @@
                             "experienceId": "f0741211f92c4df0abaaba817f4d05e3"
                         },
                         {
-                            "id": "FPA5FMSEK7Y",
+                            "id": "FCGUDETHW4E",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4066,7 +3947,67 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
+                                    }
+                                }
+                            ],
+                            "agent": {
+                                "organization": {
+                                    "contact": {
+                                        "phone": "",
+                                        "email": "samantha.viator@mondee.com"
+                                    }
+                                }
+                            },
+                            "vehicle": {
+                                "category": "SITE"
+                            },
+                            "experienceId": "a7937cbf6da2402c991da29300ef57f3"
+                        },
+                        {
+                            "id": "FQVIWNDVKVF",
+                            "type": "PLAN",
+                            "stops": [
+                                {
+                                    "type": "START",
+                                    "instructions": {
+                                        "additional_desc": {
+                                            "url": "https://ondc-official.github.io/mobility-specification/",
+                                            "content_type": "text/plain"
+                                        }
+                                    },
+                                    "time": {
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
+                                    }
+                                }
+                            ],
+                            "agent": {
+                                "organization": {
+                                    "contact": {
+                                        "phone": "",
+                                        "email": "samantha.viator@mondee.com"
+                                    }
+                                }
+                            },
+                            "vehicle": {
+                                "category": "SITE"
+                            },
+                            "experienceId": "0c8110a86d1b4d298d872aebb53c3f88"
+                        },
+                        {
+                            "id": "F8SE1ROKIVO",
+                            "type": "PLAN",
+                            "stops": [
+                                {
+                                    "type": "START",
+                                    "instructions": {
+                                        "additional_desc": {
+                                            "url": "https://ondc-official.github.io/mobility-specification/",
+                                            "content_type": "text/plain"
+                                        }
+                                    },
+                                    "time": {
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4084,7 +4025,7 @@
                             "experienceId": "bcb170f41fe845429ccf0496b9bc60b4"
                         },
                         {
-                            "id": "FTO1LKML253",
+                            "id": "F7BCWN5FEOV",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4096,7 +4037,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4114,7 +4055,7 @@
                             "experienceId": "dfe08ac8aa084639b93c64836551d7fc"
                         },
                         {
-                            "id": "FHQ7824WR71",
+                            "id": "FN2VBI8S1R1",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4126,7 +4067,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4144,7 +4085,7 @@
                             "experienceId": "75eaf557198b45419fdbacb2d48cf117"
                         },
                         {
-                            "id": "FJKAT402ZIB",
+                            "id": "FW3BHUA3DIE",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4156,7 +4097,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4174,7 +4115,7 @@
                             "experienceId": "e41197121225417b83ffec68d73fea3d"
                         },
                         {
-                            "id": "FMDOK8NNFEP",
+                            "id": "FZOVED2VVKC",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4186,7 +4127,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4204,7 +4145,7 @@
                             "experienceId": "f995ccf5b15b43ff8a3afac445a047cb"
                         },
                         {
-                            "id": "F9MEUWJF465",
+                            "id": "FUCCYX5XED0",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4216,37 +4157,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
-                                    }
-                                }
-                            ],
-                            "agent": {
-                                "organization": {
-                                    "contact": {
-                                        "phone": "",
-                                        "email": "samantha.viator@mondee.com"
-                                    }
-                                }
-                            },
-                            "vehicle": {
-                                "category": "SITE"
-                            },
-                            "experienceId": "50089620e7564ad1b7b0e5a23e51e8c5"
-                        },
-                        {
-                            "id": "FSH5P6PDG9H",
-                            "type": "PLAN",
-                            "stops": [
-                                {
-                                    "type": "START",
-                                    "instructions": {
-                                        "additional_desc": {
-                                            "url": "https://ondc-official.github.io/mobility-specification/",
-                                            "content_type": "text/plain"
-                                        }
-                                    },
-                                    "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4264,7 +4175,7 @@
                             "experienceId": "5285ae8a25fa4090bc5bea6d304d8b53"
                         },
                         {
-                            "id": "F7O2YEPS14F",
+                            "id": "F9ILHDIY2F9",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4276,7 +4187,37 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
+                                    }
+                                }
+                            ],
+                            "agent": {
+                                "organization": {
+                                    "contact": {
+                                        "phone": "",
+                                        "email": "samantha.viator@mondee.com"
+                                    }
+                                }
+                            },
+                            "vehicle": {
+                                "category": "SITE"
+                            },
+                            "experienceId": "50089620e7564ad1b7b0e5a23e51e8c5"
+                        },
+                        {
+                            "id": "F5S51HCJ108",
+                            "type": "PLAN",
+                            "stops": [
+                                {
+                                    "type": "START",
+                                    "instructions": {
+                                        "additional_desc": {
+                                            "url": "https://ondc-official.github.io/mobility-specification/",
+                                            "content_type": "text/plain"
+                                        }
+                                    },
+                                    "time": {
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4294,7 +4235,7 @@
                             "experienceId": "de4a6529162348b18c2ce8d7ce1d503e"
                         },
                         {
-                            "id": "FI31BBF87K3",
+                            "id": "FQ3ND70DW78",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4306,7 +4247,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4324,7 +4265,7 @@
                             "experienceId": "c0b2bd426b58489cbb3d9f601bf4b467"
                         },
                         {
-                            "id": "FMZFQQKAAQX",
+                            "id": "F8PLH1F7H6L",
                             "type": "STAY",
                             "stops": [
                                 {
@@ -4336,7 +4277,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4344,17 +4285,17 @@
                                 "organization": {
                                     "contact": {
                                         "phone": "",
-                                        "email": "serena.amadeus@mondee.com"
+                                        "email": "luca.stayvista@mondee.com"
                                     }
                                 }
                             },
                             "vehicle": {
                                 "category": "SITE"
                             },
-                            "experienceId": "c6ca3b754bf94d229059f188b4b59958"
+                            "experienceId": "ec48588572e14068ae7e6f6b2bbdb6c9"
                         },
                         {
-                            "id": "FFJTQ7WB70D",
+                            "id": "FFV4ULG456B",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4366,37 +4307,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
-                                    }
-                                }
-                            ],
-                            "agent": {
-                                "organization": {
-                                    "contact": {
-                                        "phone": "",
-                                        "email": "jmalhotra@mondee.com"
-                                    }
-                                }
-                            },
-                            "vehicle": {
-                                "category": "SITE"
-                            },
-                            "experienceId": "9c2c4b06cbec426eb2629c65385fdf8d"
-                        },
-                        {
-                            "id": "FEKJTL6QG0C",
-                            "type": "PLAN",
-                            "stops": [
-                                {
-                                    "type": "START",
-                                    "instructions": {
-                                        "additional_desc": {
-                                            "url": "https://ondc-official.github.io/mobility-specification/",
-                                            "content_type": "text/plain"
-                                        }
-                                    },
-                                    "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4414,7 +4325,7 @@
                             "experienceId": "23eeb18cbb7544e29e5beb7a9b0a233a"
                         },
                         {
-                            "id": "FGH1YLOU23Y",
+                            "id": "FFGPIAPLK2E",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4426,7 +4337,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4444,7 +4355,7 @@
                             "experienceId": "02260f47997b4cc9adc5dd36ddc44598"
                         },
                         {
-                            "id": "FANNQMQQHWY",
+                            "id": "FBPUUDD7J2O",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4456,7 +4367,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4474,7 +4385,7 @@
                             "experienceId": "a6fa778bd3644eb49ce232041ec74c29"
                         },
                         {
-                            "id": "FD6KUAU6YLF",
+                            "id": "F0C8JQR9XU8",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4486,7 +4397,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4504,7 +4415,7 @@
                             "experienceId": "d8483456938b4b2381ed864b5ee2be23"
                         },
                         {
-                            "id": "F8719LV9F96",
+                            "id": "FQYZ92LYKWZ",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4516,7 +4427,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4534,7 +4445,7 @@
                             "experienceId": "8299ccb43f5b47a592ff037a4f742bea"
                         },
                         {
-                            "id": "F2YRHN8WZE8",
+                            "id": "FJYIQ0JD4YK",
                             "type": "PLAN",
                             "stops": [
                                 {
@@ -4546,7 +4457,7 @@
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
+                                        "timestamp": "2025-04-28T09:00:00.000Z"
                                     }
                                 }
                             ],
@@ -4562,66 +4473,6 @@
                                 "category": "SITE"
                             },
                             "experienceId": "d31bec6211b54229adbf964962e844dc"
-                        },
-                        {
-                            "id": "F9CPFHCB8F0",
-                            "type": "PLAN",
-                            "stops": [
-                                {
-                                    "type": "START",
-                                    "instructions": {
-                                        "additional_desc": {
-                                            "url": "https://ondc-official.github.io/mobility-specification/",
-                                            "content_type": "text/plain"
-                                        }
-                                    },
-                                    "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
-                                    }
-                                }
-                            ],
-                            "agent": {
-                                "organization": {
-                                    "contact": {
-                                        "phone": "",
-                                        "email": "serena.amadeus@mondee.com"
-                                    }
-                                }
-                            },
-                            "vehicle": {
-                                "category": "SITE"
-                            },
-                            "experienceId": "4d35eb1d21614e67bf7c0f08a1fa23e6"
-                        },
-                        {
-                            "id": "F1RPW0LX2KV",
-                            "type": "PLAN",
-                            "stops": [
-                                {
-                                    "type": "START",
-                                    "instructions": {
-                                        "additional_desc": {
-                                            "url": "https://ondc-official.github.io/mobility-specification/",
-                                            "content_type": "text/plain"
-                                        }
-                                    },
-                                    "time": {
-                                        "timestamp": "2025-04-11T09:00:00.000Z"
-                                    }
-                                }
-                            ],
-                            "agent": {
-                                "organization": {
-                                    "contact": {
-                                        "phone": "",
-                                        "email": "donna@mondee.com"
-                                    }
-                                }
-                            },
-                            "vehicle": {
-                                "category": "SITE"
-                            },
-                            "experienceId": "0a73a14d6b3146fc8b5826e728e1c450"
                         }
                     ],
                     "payments": [
@@ -4643,31 +4494,31 @@
                             "descriptor": {
                                 "code": "BUYER_FINDER_FEES_PERCENTAGE"
                             },
-                            "value": "1"
+                            "value": "3"
                         },
                         {
                             "descriptor": {
                                 "code": "BUYER_FINDER_FEES_TYPE"
                             },
-                            "value": "percent"
-                        },
-                        {
-                            "descriptor": {
-                                "code": "SETTLEMENT_WINDOW"
-                            },
-                            "value": "P30D"
-                        },
-                        {
-                            "descriptor": {
-                                "code": "SETTLEMENT_BASIS"
-                            },
-                            "value": "INVOICE_RECEIPT"
+                            "value": "1"
                         },
                         {
                             "descriptor": {
                                 "code": "STATIC_TERMS"
                             },
                             "value": "https://api.example-bap.com/booking/terms"
+                        },
+                        {
+                            "descriptor": {
+                                "code": "SETTLEMENT_BASIS"
+                            },
+                            "value": "https://api.example-bap.com/booking/terms"
+                        },
+                        {
+                            "descriptor": {
+                                "code": "SETTLEMENT_WINDOW"
+                            },
+                            "value": "P30D"
                         }
                     ]
                 },
@@ -4682,7 +4533,7 @@
                             "descriptor": {
                                 "code": "BUYER_FINDER_FEES_PERCENTAGE"
                             },
-                            "value": "1"
+                            "value": "3"
                         },
                         {
                             "descriptor": {
@@ -4739,7 +4590,7 @@
                             "descriptor": {
                                 "code": "MAX_PAGE_NUMBER"
                             },
-                            "value": "5"
+                            "value": "10"
                         }
                     ]
                 }
